@@ -41,7 +41,7 @@ const Sec1 = () => {
             <Li text="Multidisciplinary Team" />
             <Li text="Health Information Technology" />
           </ul>
-          <div className="w-full flex items-center gap-8">
+          <div className="w-full flex items-center gap-4">
             <Button
               text="Appointment"
               bg="bg-primary"
@@ -59,13 +59,13 @@ const Sec1 = () => {
         </div>
 
         {/* left side */}
-        <div className=" w-full xl:w-1/2 h-full flex flex-col md:flex-row gap-7 items-center justify-center lg:justify-start relative max-w-90 sm:max-w-2xl">
+        <div className=" w-full xl:w-1/2 h-full flex flex-col md:flex-row gap-7 items-center justify-center lg:justify-start relative max-w-9/10 sm:max-w-2xl p-5">
           <img
             src={assets.sec1_img}
             alt="aboutImage"
-            className=" max-w-sm sm:max-w-lg h-auto rounded-2xl"
+            className=" w-90 sm:w-full max-w-sm sm:max-w-lg h-auto rounded-2xl"
           />
-          <div className=" md:absolute right-0 bottom-5 p-4 w-sm md:w-60 h-fit rounded-2xl space-y-3 bg-second text-white text-sm ">
+          <div className=" md:absolute right-0 bottom-10 p-4 w-90 sm:w-9/10 md:w-60 h-fit rounded-2xl space-y-3 bg-second text-white text-sm ">
             <div className="relative">
               <div className="bg-primary w-12 md:w-20 h-12 md:h-20 rounded-full absolute -top-8 md:-top-12 -right-8 md:-right-12 border-4 flex items-center justify-center">
                 <Clock className="w-12 h-12" />
