@@ -12,6 +12,7 @@ import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import Register from './pages/Register'
 import ScrollToTop from "./components/common/ScrollToTop";
+import ScrollToTopButton from './components/common/ScrollToTopButton'
 
 
 const App = () => {
@@ -32,6 +33,7 @@ const App = () => {
         <Route path="/appointment/:docId" element={<Appointments />} />
       </Routes>
       <Footer />
+      <ScrollToTopButton/>
     </>
   );
 }
