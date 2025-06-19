@@ -11,10 +11,13 @@ import Appointments from './pages/Appointments'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import Register from './pages/Register'
+import ScrollToTop from "./ScrollToTop";
+
 
 const App = () => {
   return (
     <div className="">
+      <ScrollToTop />
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
@@ -28,7 +31,7 @@ const App = () => {
         <Route path="/my-appointments" element={<Myappointments />} />
         <Route path="/appointment/:docId" element={<Appointments />} />
       </Routes>
-      <Footer/>
+      <Footer />
     </div>
   );
 }
