@@ -11,7 +11,7 @@ import Appointments from './pages/Appointments'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import Register from './pages/Register'
-import ScrollToTop from "./ScrollToTop";
+import ScrollToTop from "./components/common/ScrollToTop";
 
 
 const App = () => {
