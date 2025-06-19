@@ -17,7 +17,7 @@ const Sec1 = () => {
   return (
     <div className="flex items-center justify-center  w-full h-fit px-7 lg:px-20 my-10 mx-auto sm:my-20 md:max-w-11/12">
       <div className="w-full h-full flex flex-col xl:flex-row-reverse justify-center items-center gap-10">
-        {/* left side  */}
+        {/* right side  */}
         <div className="flex flex-col gap-8 max-w-110 sm:max-w-130 md:max-w-170 lg:max-w-200 w-full xl:w-1/2  ">
           <h2 className="text-4xl lg:text-5xl text-primary font-bold">
             World ClassName Patient Facilities Designed for You
@@ -58,8 +58,8 @@ const Sec1 = () => {
           </div>
         </div>
 
-        {/* right side */}
-        <div className=" w-full xl:w-1/2 h-full flex flex-col md:flex-row gap-7 items-center justify-center lg:justify-start relative max-w-2xl">
+        {/* left side */}
+        <div className=" w-full xl:w-1/2 h-full flex flex-col md:flex-row gap-7 items-center justify-center lg:justify-start relative max-w-90 sm:max-w-2xl">
           <img
             src={assets.sec1_img}
             alt="aboutImage"
