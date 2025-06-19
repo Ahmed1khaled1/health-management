@@ -8,7 +8,7 @@ const Button = ({text,bg,hover,path}) => {
 
   return (
     <button
-      onClick={() => {navigate(path); scrollTo(0,0)}}
+      onClick={() => {navigate(path)}}
       className={`px-5 sm:px-2 h-14 text-lg font-semibold ${bg} ${hover} rounded-xl flex items-center gap-3 cursor-pointer`}
     >
       <p className="md:pl-3 text-white">{text}</p>
