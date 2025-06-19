@@ -17,7 +17,7 @@ import ScrollToTopButton from './components/common/ScrollToTopButton'
 
 const App = () => {
   return (
-    <>
+    <div className=''>
       <ScrollToTop />
       <Navbar />
       <Routes>
@@ -34,7 +34,7 @@ const App = () => {
       </Routes>
       <Footer />
       <ScrollToTopButton/>
-    </>
+    </div>
   );
 }
 

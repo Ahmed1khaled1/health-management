@@ -7,7 +7,9 @@
   --color-secondHover: #00a1be;
 }
 
-
+html , body {
+  overflow-x: hidden;
+}
 
 .cardcontainer img {
   width: 100%;
