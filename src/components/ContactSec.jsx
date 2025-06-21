@@ -28,7 +28,7 @@ const ContactSec = () => {
           </p>
 
           <div className="w-full flex items-center gap-2 h-13 md:h-17">
-            <div className="h-full bg-cyan-500/10 rounded-full flex items-center gap-5 p-3 pr-7 px-4">
+            <div className="h-full bg-cyan-500/10 rounded-full flex items-center gap-5 p-3 md:pr-7 px-4">
               <img
                 src={assets.group_profiles}
                 alt="groupPic"

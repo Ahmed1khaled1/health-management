@@ -15,7 +15,7 @@ const openHours = [
 
 const Sec1 = () => {
   return (
-    <div className="flex items-center justify-center  w-full h-fit px-7 lg:px-20 my-10 mx-auto sm:my-20 md:max-w-11/12">
+    <div className="flex items-center justify-center  w-full h-fit px-7 lg:px-20 my-10 mx-auto sm:my-20 md:max-w-11/12 overflow-hidden">
       <div className="w-full h-full flex flex-col xl:flex-row-reverse justify-center items-center gap-10">
         {/* right side  */}
         <div className="flex flex-col gap-8 max-w-110 sm:max-w-130 md:max-w-170 lg:max-w-200 w-full xl:w-1/2  ">

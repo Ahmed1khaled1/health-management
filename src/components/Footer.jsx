@@ -60,7 +60,7 @@ const Footer = () => {
               Ipsum Dolor
             </p>
           </div>
-          <div className="grid grid-cols-2 md:grid-cols-4 lg:w-3/4 gap-5 ">
+          <div className="grid grid-cols-2 md:grid-cols-4 lg:w-3/4 gap-5">
             <div className="flex flex-col gap-2 text-sm ">
               <p className="text-primary mb-2 text-lg font-semibold">
                 Our Services
