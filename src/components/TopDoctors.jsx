@@ -9,7 +9,7 @@ const TopDoctors = () => {
   return (
     <div className=" flex flex-col items-center justify-center gap-5 w-full md:max-w-11/12 mx-auto p-7 md:px-20 my-10">
       <div className="flex items-center justify-between w-full">
-        <h2 className="text-3xl text-primary font-bold max-w-60 sm:max-w-lg ">
+        <h2 className="text-3xl text-primary font-bold max-w-55 sm:max-w-lg ">
           We Employ only Specialists
         </h2>
         <Button

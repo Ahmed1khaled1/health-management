@@ -52,7 +52,7 @@ const Sec1 = () => {
               <PhoneCall className="text-second w-10 h-10 animate-pulse" />
               <div>
                 <p className="text-gray-600">Contact us?</p>
-                <p className="font-semibold text-gray-800">+1 123 456 7890</p>
+                <p className="font-semibold text-gray-800 text-xs sm:text-base">+1 123 456 7890</p>
               </div>
             </div>
           </div>
