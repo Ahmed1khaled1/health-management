@@ -13,7 +13,10 @@ const links = [
 const Navbar = () => {
   const [token, setToken] = useState(true);
   const [isOpen, setIsOpen] = useState(false);
+  const [profileMenu, setProfileMenu] = useState(false);
   const navigate = useNavigate();
+
+  const mobile = window.matchMedia("(max-width:1024)").matches
 
   return (
     <div className="sticky top-0 left-0 z-20 h-16 md:h-20 w-full flex justify-center items-center bg-primary text-white p-7 md:px-10 lg:px-20">
@@ -47,14 +50,16 @@ const Navbar = () => {
         {/* login button */}
         <div className="flex items-center gap-8 font-semibold">
           {token ? (
-            <div className="flex items-center relative group cursor-pointer ">
+            <div onClick={()=>{if(mobile)setProfileMenu((prev) => !prev);}} className="flex items-center relative group cursor-pointer ">
               <img
                 src={assets.profile_pic}
                 alt="profilePic"
                 className="w-10 min-w-10 h-10 rounded-full object-cover "
               />
               <ChevronDown className="hidden lg:inline-block text-gray-500" />
-              <div className="hidden group-hover:block w-50 p-3 text-white bg-second absolute top-10 right-0 rounded-xl">
+             
+
+              <div className={`${profileMenu?"block":"hidden"} hidden group-hover:block w-50 p-3 text-white bg-second absolute top-10 right-0 rounded-xl`}>
                 <ul className="w-full h-full flex flex-col items-center ">
                   <li
                     onClick={() => navigate("/my-profile")}
@@ -76,6 +81,7 @@ const Navbar = () => {
                   </li>
                 </ul>
               </div>
+              
             </div>
           ) : (
             <button
