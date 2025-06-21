@@ -18,14 +18,14 @@ const Myappointments = () => {
                 <img
                   src={doctor.image}
                   alt="doctor_image"
-                  className="w-40 object-cover  bg-cyan-500/10 rounded-md"
+                  className="w-40 h-50 object-cover  bg-cyan-500/10 rounded-md"
                 />
                 <div className="">
                   <p className="font-semibold"> {doctor.name} </p>
                   <p className=""> {doctor.speciality} </p>
                   <p className="font-semibold">Adersses:</p>
-                  <p> {doctor.address.line1} </p>
-                  <p> {doctor.address.line2} </p>
+                  <p className="text-gray-600 text-sm sm:text-base"> {doctor.address.line1} </p>
+                  <p className="text-gray-600 text-sm sm:text-base"> {doctor.address.line2} </p>
                   <p>
                     <span className="font-semibold">Date&Time: </span>
                     24 july 2025 | 10:30 PM
