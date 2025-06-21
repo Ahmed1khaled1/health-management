@@ -8,20 +8,23 @@ const TopDoctors = () => {
 
   return (
     <div className=" flex flex-col items-center justify-center gap-5 w-full md:max-w-11/12 mx-auto p-7 md:px-20 my-10">
-      <div className="flex items-center justify-between w-full">
-        <h2 className="text-3xl text-primary font-bold max-w-55 sm:max-w-lg ">
+      <div className="flex flex-col sm:flex-row gap-5 sm:items-center justify-between w-full">
+        <h2 className="text-3xl text-primary font-bold ">
           We Employ only Specialists
         </h2>
+        <div className="w-fit">
+
         <Button
           text="View All"
           bg="bg-second"
           hover="hover:bg-secondHover"
           path="/doctors"
-        />
+          />
+          </div>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-7 ">
         {doctors.slice(0, 4).map((doctor) => (
-          <Card key={doctor._id} doctor={doctor}/>
+          <Card key={doctor._id} doctor={doctor} />
         ))}
       </div>
     </div>

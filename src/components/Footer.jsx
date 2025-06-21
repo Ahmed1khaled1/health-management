@@ -120,7 +120,7 @@ const Footer = () => {
               className="focus:outline-none w-full p-2"
             />
             <button className="w-40 py-2 text-white bg-second rounded-xl ">
-              Subscrip Now
+              Subscrip
             </button>
           </div>
         </div>
