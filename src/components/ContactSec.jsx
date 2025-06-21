@@ -27,25 +27,25 @@ const ContactSec = () => {
             with our healthcare professionals.
           </p>
 
-          <div className="w-full flex items-center gap-4">
-            <div className="bg-cyan-500/10 rounded-full flex items-center gap-5 py-2 px-4">
+          <div className="w-full flex items-center gap-2 h-13 md:h-17">
+            <div className="h-full bg-cyan-500/10 rounded-full flex items-center gap-5 p-3 pr-7 px-4">
               <img
                 src={assets.group_profiles}
                 alt="groupPic"
-                className="border-r pr-5 border-gray-300"
+                className="border-r pr-5 border-gray-300 w-25 md:w-30"
               />
-              <p className="text-gray-800 font-semibold">
+              <p className="text-gray-800 text-xs sm:text-base font-semibold">
                 Talk to over 215 doctor
               </p>
             </div>
             <div
               onClick={() => navigate("/doctors")}
-              className="bg-cyan-400/10 p-6 rounded-full text-cyan-500 cursor-pointer hover:text-white hover:bg-second"
+              className="h-full aspect-square bg-cyan-400/10 flex justify-center items-center rounded-full text-cyan-500 cursor-pointer hover:text-white hover:bg-second"
             >
-              <MoveUpRight />
+              <MoveUpRight className="w-5" />
             </div>
           </div>
-          <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-5 mt-10">
+          <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-5 mt-7">
             <div className="flex items-center gap-3 bg-cyan-500/10 p-5 rounded-xl">
               <div className="bg-white p-4 rounded-full text-cyan-500  hover:text-white hover:bg-second">
                 <MapPin />

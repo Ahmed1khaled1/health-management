@@ -16,7 +16,7 @@ const Navbar = () => {
   const navigate = useNavigate();
 
   return (
-    <div className="sticky top-0 z-20 h-16 md:h-20 flex justify-center items-center bg-primary text-white p-7 md:px-10 lg:px-20">
+    <div className="sticky top-0 left-0 z-20 h-16 md:h-20 w-full flex justify-center items-center bg-primary text-white p-7 md:px-10 lg:px-20">
       <div className="w-full h-full md:max-w-11/12 flex items-center justify-between">
         {/* logo  */}
         <NavLink

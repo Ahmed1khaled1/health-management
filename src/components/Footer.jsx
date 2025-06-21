@@ -46,7 +46,7 @@ const Footer = () => {
           </div>
         </div>
         <hr className="my-5 text-gray-300" />
-        <div className="flex flex-col lg:flex-row gap-5 w-full mx-auto py-10">
+        <div className="flex flex-col lg:flex-row gap-5 w-full mx-auto py-7">
           <div className="flex flex-col lg:max-w-1/4">
             <div className="flex items-center pb-3 text-3xl font-bold gap-1">
               <HeartPulse className="text-second w-7 h-7" />
@@ -60,8 +60,8 @@ const Footer = () => {
               Ipsum Dolor
             </p>
           </div>
-          <div className="grid grid-cols-2 md:grid-cols-4 lg:w-3/4">
-            <div className="flex flex-col gap-2 text-sm items-center">
+          <div className="grid grid-cols-2 md:grid-cols-4 lg:w-3/4 gap-5 ">
+            <div className="flex flex-col gap-2 text-sm ">
               <p className="text-primary mb-2 text-lg font-semibold">
                 Our Services
               </p>
@@ -71,7 +71,7 @@ const Footer = () => {
               <p className="text-gray-500">Diagnostic Center</p>
               <p className="text-gray-500">Outdoor Checkup</p>
             </div>
-            <div className="flex flex-col gap-2 text-sm items-center">
+            <div className="flex flex-col gap-2 text-sm ">
               <p className="text-primary mb-2 text-lg font-semibold">
                 Our Services
               </p>
@@ -81,7 +81,7 @@ const Footer = () => {
               <p className="text-gray-500">Diagnostic Center</p>
               <p className="text-gray-500">Outdoor Checkup</p>
             </div>
-            <div className="flex flex-col gap-2 text-sm items-center">
+            <div className="flex flex-col gap-2 text-sm ">
               <p className="text-primary mb-2 text-lg font-semibold">
                 Our Services
               </p>
@@ -91,7 +91,7 @@ const Footer = () => {
               <p className="text-gray-500">Diagnostic Center</p>
               <p className="text-gray-500">Outdoor Checkup</p>
             </div>
-            <div className="flex flex-col gap-2 text-sm items-center">
+            <div className="flex flex-col gap-2 text-sm ">
               <p className="text-primary mb-2 text-lg font-semibold">
                 Our Services
               </p>
